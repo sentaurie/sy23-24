@@ -9,3 +9,5 @@
 <div align="center"><b>1/4/24</b> - setting up repository</div>
 
 <div align="center"><b>1/5/24</b> - updating cloned repository</div>
+
+<div align="center"><b>1/8/24</b> - monday update</div>
