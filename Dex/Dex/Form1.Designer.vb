@@ -54,7 +54,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(415, 149)
+        Me.Label1.Location = New System.Drawing.Point(486, 149)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(41, 15)
         Me.Label1.TabIndex = 1
@@ -64,7 +64,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(415, 208)
+        Me.Label2.Location = New System.Drawing.Point(448, 208)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(79, 15)
         Me.Label2.TabIndex = 2
@@ -74,7 +74,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(415, 238)
+        Me.Label3.Location = New System.Drawing.Point(437, 238)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(90, 15)
         Me.Label3.TabIndex = 3
@@ -84,17 +84,17 @@ Partial Class Form1
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(415, 268)
+        Me.Label4.Location = New System.Drawing.Point(395, 268)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(82, 15)
+        Me.Label4.Size = New System.Drawing.Size(132, 15)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Scale (Length)"
+        Me.Label4.Text = "Scale (Length in Inches)"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(415, 179)
+        Me.Label5.Location = New System.Drawing.Point(454, 179)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(73, 15)
         Me.Label5.TabIndex = 5
