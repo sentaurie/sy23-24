@@ -22,18 +22,27 @@ Public Class Form1
     End Sub
 
     Private Sub SaveToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SaveToolStripMenuItem.Click
+        Dim r As String
+        r += Field1.Text
+        r += "|"
+        r += Field2.Text
+        r += "|"
+        r += Field3.Text
+        r += "|"
+        r += Field4.Text
+        r += "|"
+        r += Field5.Text
+        r += "|"
+        r += PictureBox1.ImageLocation
+        records(current) = r
+        savetofile()
+    End Sub
+
+    Sub savetofile()
         Dim outFile As New StreamWriter("data.txt")
-        outFile.Write(Field1.Text)
-        outFile.Write("|")
-        outFile.Write(Field2.Text)
-        outFile.Write("|")
-        outFile.Write(Field3.Text)
-        outFile.Write("|")
-        outFile.Write(Field4.Text)
-        outFile.Write("|")
-        outFile.Write(Field5.Text)
-        outFile.Write("|")
-        outFile.WriteLine(PictureBox1.ImageLocation)
+        For index = 0 To count - 1
+            outFile.WriteLine(records(index))
+        Next
         outFile.Close()
     End Sub
 
@@ -65,6 +74,13 @@ Public Class Form1
         End If
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        current = 0
+        ShowRecord(current)
+    End Sub
 
-
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        current = count - 1
+        ShowRecord(current)
+    End Sub
 End Class
