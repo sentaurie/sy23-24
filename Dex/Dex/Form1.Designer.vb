@@ -51,7 +51,8 @@ Partial Class Form1
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.PictureBox1.Location = New System.Drawing.Point(69, 86)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(250, 251)
+        Me.PictureBox1.Size = New System.Drawing.Size(260, 251)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -78,11 +79,11 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(437, 238)
+        Me.Label3.Location = New System.Drawing.Point(466, 238)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(90, 15)
+        Me.Label3.Size = New System.Drawing.Size(61, 15)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Common Color"
+        Me.Label3.Text = "Body Type"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label4
