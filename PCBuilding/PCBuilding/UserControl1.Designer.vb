@@ -22,12 +22,9 @@ Partial Class UserControl1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserControl1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.priceLabel = New System.Windows.Forms.Label()
         Me.productNameLabel = New System.Windows.Forms.Label()
-        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.descriptionTextBox = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -61,13 +58,6 @@ Partial Class UserControl1
         Me.productNameLabel.TabIndex = 2
         Me.productNameLabel.Text = "Label2"
         '
-        'ImageList1
-        '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList1.Images.SetKeyName(0, "gtx1050.jpg")
-        Me.ImageList1.Images.SetKeyName(1, "gtx1080.jpg")
-        '
         'descriptionTextBox
         '
         Me.descriptionTextBox.Location = New System.Drawing.Point(3, 276)
@@ -96,6 +86,5 @@ Partial Class UserControl1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents priceLabel As Label
     Friend WithEvents productNameLabel As Label
-    Friend WithEvents ImageList1 As ImageList
     Friend WithEvents descriptionTextBox As TextBox
 End Class

@@ -22,23 +22,16 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
-        Me.UserControl11 = New PCBuilding.UserControl1()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.SuspendLayout()
-        '
-        'UserControl11
-        '
-        Me.UserControl11.Location = New System.Drawing.Point(420, 49)
-        Me.UserControl11.Name = "UserControl11"
-        Me.UserControl11.picture = CType(resources.GetObject("UserControl11.picture"), System.Drawing.Image)
-        Me.UserControl11.Size = New System.Drawing.Size(282, 367)
-        Me.UserControl11.TabIndex = 30
         '
         'Button5
         '
@@ -99,18 +92,19 @@ Partial Class Form3
         Me.Label6.Size = New System.Drawing.Size(0, 31)
         Me.Label6.TabIndex = 24
         '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "3090.jpg")
+        Me.ImageList1.Images.SetKeyName(1, "gtx1050.jpg")
+        Me.ImageList1.Images.SetKeyName(2, "gtx1080.jpg")
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.UserControl11)
-        Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.Label6)
         Me.Name = "Form3"
         Me.Text = "Form3"
         Me.ResumeLayout(False)
@@ -124,4 +118,5 @@ Partial Class Form3
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
     Friend WithEvents Label6 As Label
+    Friend WithEvents ImageList1 As ImageList
 End Class

@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -30,6 +31,7 @@ Partial Class Form2
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.UserControl11 = New PCBuilding.UserControl1()
+        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
         Me.SuspendLayout()
         '
         'Label6
@@ -102,9 +104,21 @@ Partial Class Form2
         Me.UserControl11.Location = New System.Drawing.Point(484, 74)
         Me.UserControl11.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.UserControl11.Name = "UserControl11"
+<<<<<<< Updated upstream
         Me.UserControl11.picture = CType(resources.GetObject("UserControl11.picture"), System.Drawing.Image)
         Me.UserControl11.Size = New System.Drawing.Size(376, 450)
+=======
+        Me.UserControl11.Size = New System.Drawing.Size(282, 366)
+>>>>>>> Stashed changes
         Me.UserControl11.TabIndex = 22
+        '
+        'ImageList1
+        '
+        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList1.Images.SetKeyName(0, "gtx1050.jpg")
+        Me.ImageList1.Images.SetKeyName(1, "gtx1080.jpg")
+        Me.ImageList1.Images.SetKeyName(2, "3090.jpg")
         '
         'Form2
         '
@@ -133,4 +147,5 @@ Partial Class Form2
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents UserControl11 As UserControl1
+    Friend WithEvents ImageList1 As ImageList
 End Class
