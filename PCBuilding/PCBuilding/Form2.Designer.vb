@@ -36,17 +36,19 @@ Partial Class Form2
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(41, 349)
+        Me.Label6.Location = New System.Drawing.Point(55, 430)
+        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(0, 31)
+        Me.Label6.Size = New System.Drawing.Size(0, 39)
         Me.Label6.TabIndex = 16
         '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(47, 69)
+        Me.Button1.Location = New System.Drawing.Point(63, 85)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(277, 49)
+        Me.Button1.Size = New System.Drawing.Size(369, 60)
         Me.Button1.TabIndex = 17
         Me.Button1.Text = "Nvidia GTX 1050 Ti"
         Me.Button1.UseVisualStyleBackColor = True
@@ -54,9 +56,10 @@ Partial Class Form2
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(47, 124)
+        Me.Button2.Location = New System.Drawing.Point(63, 153)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(277, 49)
+        Me.Button2.Size = New System.Drawing.Size(369, 60)
         Me.Button2.TabIndex = 18
         Me.Button2.Text = "Nvidia GTX 1080 Ti"
         Me.Button2.UseVisualStyleBackColor = True
@@ -64,9 +67,10 @@ Partial Class Form2
         'Button3
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(47, 179)
+        Me.Button3.Location = New System.Drawing.Point(63, 220)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(277, 49)
+        Me.Button3.Size = New System.Drawing.Size(369, 60)
         Me.Button3.TabIndex = 19
         Me.Button3.Text = "Nvidia RTX 3090"
         Me.Button3.UseVisualStyleBackColor = True
@@ -74,9 +78,10 @@ Partial Class Form2
         'Button4
         '
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(47, 234)
+        Me.Button4.Location = New System.Drawing.Point(63, 288)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(277, 49)
+        Me.Button4.Size = New System.Drawing.Size(369, 60)
         Me.Button4.TabIndex = 20
         Me.Button4.Text = "Nvidia RTX 4090"
         Me.Button4.UseVisualStyleBackColor = True
@@ -84,26 +89,28 @@ Partial Class Form2
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(47, 289)
+        Me.Button5.Location = New System.Drawing.Point(63, 356)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(277, 49)
+        Me.Button5.Size = New System.Drawing.Size(369, 60)
         Me.Button5.TabIndex = 21
         Me.Button5.Text = "AMD Radeon RX 7600 XT"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'UserControl11
         '
-        Me.UserControl11.Location = New System.Drawing.Point(363, 60)
+        Me.UserControl11.Location = New System.Drawing.Point(484, 74)
+        Me.UserControl11.Margin = New System.Windows.Forms.Padding(5, 5, 5, 5)
         Me.UserControl11.Name = "UserControl11"
         Me.UserControl11.picture = CType(resources.GetObject("UserControl11.picture"), System.Drawing.Image)
-        Me.UserControl11.Size = New System.Drawing.Size(282, 366)
+        Me.UserControl11.Size = New System.Drawing.Size(376, 450)
         Me.UserControl11.TabIndex = 22
         '
         'Form2
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1067, 554)
         Me.Controls.Add(Me.UserControl11)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -111,6 +118,7 @@ Partial Class Form2
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label6)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form2"
         Me.Text = "Form2"
         Me.ResumeLayout(False)

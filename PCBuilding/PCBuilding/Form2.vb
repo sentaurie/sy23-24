@@ -17,4 +17,7 @@ Boost Clock 1455 MHz, 1 x DL-DVI-D 1 x HDMI 2.0 1 x DisplayPort 1.4,
 768 Cores CUDA Cores, PCI Express 3.0 x16"
     End Sub
 
+    Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
