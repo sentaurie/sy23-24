@@ -37,7 +37,7 @@ Partial Class Form3
         Me.UserControl11.Location = New System.Drawing.Point(420, 49)
         Me.UserControl11.Name = "UserControl11"
         Me.UserControl11.picture = CType(resources.GetObject("UserControl11.picture"), System.Drawing.Image)
-        Me.UserControl11.Size = New System.Drawing.Size(282, 302)
+        Me.UserControl11.Size = New System.Drawing.Size(282, 367)
         Me.UserControl11.TabIndex = 30
         '
         'Button5

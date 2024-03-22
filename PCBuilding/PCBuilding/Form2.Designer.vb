@@ -96,7 +96,7 @@ Partial Class Form2
         Me.UserControl11.Location = New System.Drawing.Point(363, 60)
         Me.UserControl11.Name = "UserControl11"
         Me.UserControl11.picture = CType(resources.GetObject("UserControl11.picture"), System.Drawing.Image)
-        Me.UserControl11.Size = New System.Drawing.Size(282, 302)
+        Me.UserControl11.Size = New System.Drawing.Size(282, 366)
         Me.UserControl11.TabIndex = 22
         '
         'Form2

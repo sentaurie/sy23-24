@@ -37,6 +37,7 @@ Partial Class UserControl1
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(282, 230)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -44,7 +45,7 @@ Partial Class UserControl1
         '
         Me.priceLabel.AutoSize = True
         Me.priceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.priceLabel.Location = New System.Drawing.Point(176, 233)
+        Me.priceLabel.Location = New System.Drawing.Point(176, 240)
         Me.priceLabel.Name = "priceLabel"
         Me.priceLabel.Size = New System.Drawing.Size(77, 25)
         Me.priceLabel.TabIndex = 1
@@ -53,10 +54,10 @@ Partial Class UserControl1
         'productNameLabel
         '
         Me.productNameLabel.AutoSize = True
-        Me.productNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.productNameLabel.Location = New System.Drawing.Point(34, 233)
+        Me.productNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.productNameLabel.Location = New System.Drawing.Point(31, 244)
         Me.productNameLabel.Name = "productNameLabel"
-        Me.productNameLabel.Size = New System.Drawing.Size(77, 25)
+        Me.productNameLabel.Size = New System.Drawing.Size(57, 20)
         Me.productNameLabel.TabIndex = 2
         Me.productNameLabel.Text = "Label2"
         '
@@ -65,6 +66,7 @@ Partial Class UserControl1
         Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
         Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
         Me.ImageList1.Images.SetKeyName(0, "gtx1050.jpg")
+        Me.ImageList1.Images.SetKeyName(1, "gtx1080.jpg")
         '
         'descriptionTextBox
         '
