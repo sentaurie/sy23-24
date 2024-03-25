@@ -34,9 +34,9 @@ Partial Class UserControl1
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 17)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(282, 230)
+        Me.PictureBox1.Size = New System.Drawing.Size(282, 203)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -55,7 +55,7 @@ Partial Class UserControl1
         '
         Me.productNameLabel.AutoSize = True
         Me.productNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.productNameLabel.Location = New System.Drawing.Point(31, 244)
+        Me.productNameLabel.Location = New System.Drawing.Point(11, 244)
         Me.productNameLabel.Name = "productNameLabel"
         Me.productNameLabel.Size = New System.Drawing.Size(57, 20)
         Me.productNameLabel.TabIndex = 2
@@ -77,6 +77,8 @@ Partial Class UserControl1
         Me.ImageList1.Images.SetKeyName(0, "gtx1050.jpg")
         Me.ImageList1.Images.SetKeyName(1, "gtx1080.jpg")
         Me.ImageList1.Images.SetKeyName(2, "3090.jpg")
+        Me.ImageList1.Images.SetKeyName(3, "4090.jpg")
+        Me.ImageList1.Images.SetKeyName(4, "RadeonRX7600XT.jpg")
         '
         'UserControl1
         '

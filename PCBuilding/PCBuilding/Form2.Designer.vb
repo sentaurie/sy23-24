@@ -94,7 +94,7 @@ Partial Class Form2
         'UserControl11
         '
         Me.UserControl11.Location = New System.Drawing.Point(363, 60)
-        Me.UserControl11.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.UserControl11.Margin = New System.Windows.Forms.Padding(4)
         Me.UserControl11.Name = "UserControl11"
         Me.UserControl11.picture = CType(resources.GetObject("UserControl11.picture"), System.Drawing.Image)
         Me.UserControl11.Size = New System.Drawing.Size(291, 377)
