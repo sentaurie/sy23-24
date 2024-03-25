@@ -15,8 +15,8 @@
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         UserControl11.PictureBox1.Image = UserControl11.ImageList1.Images(1)
         UserControl11.priceLabel.Text = 70.ToString("C2")
-        UserControl11.productNameLabel.Text = ""
-        UserControl11.descriptionTextBox.Text = ""
+        UserControl11.productNameLabel.Text = "Team T-FORCE VULCAN Z 16GB"
+        UserControl11.descriptionTextBox.Text = "DDR4 3600 (PC4 28800), Timing 18-22-22-42, CAS Latency 18, Voltage 1.35V"
     End Sub
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         UserControl11.PictureBox1.Image = UserControl11.ImageList1.Images(1)
