@@ -33,7 +33,6 @@ Partial Class Form3
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.UserControl12 = New PCBuilding.UserControl1()
         Me.SuspendLayout()
         '
@@ -146,20 +145,10 @@ Partial Class Form3
         Me.Button10.Text = "Intel Core i5-14600K"
         Me.Button10.UseVisualStyleBackColor = True
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(300, 350)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(0, 31)
-        Me.Label1.TabIndex = 22
-        '
         'UserControl12
         '
         Me.UserControl12.Location = New System.Drawing.Point(441, 46)
         Me.UserControl12.Name = "UserControl12"
-        Me.UserControl12.picture = Nothing
         Me.UserControl12.Size = New System.Drawing.Size(282, 363)
         Me.UserControl12.TabIndex = 28
         '
@@ -174,11 +163,9 @@ Partial Class Form3
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button10)
-        Me.Controls.Add(Me.Label1)
         Me.Name = "Form3"
         Me.Text = "Form3"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents UserControl11 As UserControl1
@@ -193,6 +180,5 @@ Partial Class Form3
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
-    Friend WithEvents Label1 As Label
     Friend WithEvents UserControl12 As UserControl1
 End Class
