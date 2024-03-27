@@ -22,7 +22,6 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -96,8 +95,7 @@ Partial Class Form2
         Me.UserControl11.Location = New System.Drawing.Point(363, 60)
         Me.UserControl11.Margin = New System.Windows.Forms.Padding(4)
         Me.UserControl11.Name = "UserControl11"
-        Me.UserControl11.picture = CType(resources.GetObject("UserControl11.picture"), System.Drawing.Image)
-        Me.UserControl11.Size = New System.Drawing.Size(291, 377)
+        Me.UserControl11.Size = New System.Drawing.Size(320, 377)
         Me.UserControl11.TabIndex = 22
         '
         'Form2
