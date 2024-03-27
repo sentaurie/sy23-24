@@ -1,6 +1,6 @@
 ﻿Public Class Form5
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
-        UserControl11.PictureBox1.Image = UserControl11.ImageList1.Images(10)
+        UserControl11.PictureBox1.Image = UserControl11.ImageList1.Images(14)
         UserControl11.priceLabel.Text = 110.ToString("C2")
         UserControl11.descriptionTextBox.Text = "AMD AM4 Socket: Supports Ryzen processors, DDR4 Compatible: Dual Channel DDR4, Sturdy Power Design: 5+3 Digital VRM, Connectivity: PCIe 4.0, Dual NVMe M.2, Fine Tuning Features: RGB Fusion 2.0, Smart Fan 5, Q-Flash Plus"
     End Sub

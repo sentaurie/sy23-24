@@ -35,6 +35,7 @@ Partial Class Form1
         Me.CPUTotalLabel = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MotherboardTotalLabel = New System.Windows.Forms.Label()
+        Me.MemoryTotalLabel = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -158,16 +159,26 @@ Partial Class Form1
         '
         Me.MotherboardTotalLabel.AutoSize = True
         Me.MotherboardTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MotherboardTotalLabel.Location = New System.Drawing.Point(568, 145)
+        Me.MotherboardTotalLabel.Location = New System.Drawing.Point(568, 190)
         Me.MotherboardTotalLabel.Name = "MotherboardTotalLabel"
         Me.MotherboardTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.MotherboardTotalLabel.TabIndex = 56
+        '
+        'MemoryTotalLabel
+        '
+        Me.MemoryTotalLabel.AutoSize = True
+        Me.MemoryTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MemoryTotalLabel.Location = New System.Drawing.Point(568, 146)
+        Me.MemoryTotalLabel.Name = "MemoryTotalLabel"
+        Me.MemoryTotalLabel.Size = New System.Drawing.Size(0, 25)
+        Me.MemoryTotalLabel.TabIndex = 57
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 408)
+        Me.Controls.Add(Me.MemoryTotalLabel)
         Me.Controls.Add(Me.MotherboardTotalLabel)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.CPUTotalLabel)
@@ -202,4 +213,5 @@ Partial Class Form1
     Friend WithEvents CPUTotalLabel As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents MotherboardTotalLabel As Label
+    Friend WithEvents MemoryTotalLabel As Label
 End Class
