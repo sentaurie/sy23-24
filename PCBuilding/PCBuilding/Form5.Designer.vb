@@ -82,9 +82,9 @@ Partial Class Form5
         '
         'UserControl11
         '
-        Me.UserControl11.Location = New System.Drawing.Point(465, 38)
+        Me.UserControl11.Location = New System.Drawing.Point(439, 37)
         Me.UserControl11.Name = "UserControl11"
-        Me.UserControl11.Size = New System.Drawing.Size(282, 363)
+        Me.UserControl11.Size = New System.Drawing.Size(323, 363)
         Me.UserControl11.TabIndex = 39
         '
         'Form5

@@ -8,6 +8,7 @@ Public Class Form1
 
     Dim gpu As Integer
     Dim cpu As Integer
+    Dim mem As Integer
     Dim mb As Integer
 
     Dim totalvalue As Integer
@@ -17,7 +18,7 @@ Public Class Form1
         Me.Show()
         gpu = f2.UserControl11.priceLabel.Text
         GPUTotalLabel.Text = gpu.ToString("C2")
-        totalvalue = gpu + cpu
+        totalvalue = gpu + cpu + mem + mb
         Label2.Text = totalvalue.ToString("C2")
     End Sub
 
@@ -27,7 +28,7 @@ Public Class Form1
         Me.Show()
         cpu = f3.UserControl12.priceLabel.Text
         CPUTotalLabel.Text = cpu.ToString("C2")
-        totalvalue = gpu + cpu
+        totalvalue = gpu + cpu + mem + mb
         Label2.Text = totalvalue.ToString("C2")
     End Sub
 
@@ -35,6 +36,10 @@ Public Class Form1
         Me.Hide()
         f4.ShowDialog()
         Me.Show()
+        mem = f4.UserControl12.priceLabel.Text
+        MemoryTotalLabel.Text = mem.ToString("C2")
+        totalvalue = gpu + cpu + mem + mb
+        Label2.Text = totalvalue.ToString("C2")
     End Sub
 
     Private Sub Label30_Click(sender As Object, e As EventArgs) Handles Label30.Click
@@ -43,7 +48,7 @@ Public Class Form1
         Me.Show()
         mb = f5.UserControl11.priceLabel.Text
         MotherboardTotalLabel.Text = mb.ToString("C2")
-        totalvalue = gpu + cpu + mb
+        totalvalue = gpu + cpu + mem + mb
         Label2.Text = totalvalue.ToString("C2")
     End Sub
 
