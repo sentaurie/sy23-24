@@ -34,7 +34,7 @@ Partial Class UserControl1
         'PictureBox1
         '
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(380, 320)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
@@ -55,7 +55,7 @@ Partial Class UserControl1
         'descriptionTextBox
         '
         Me.descriptionTextBox.Location = New System.Drawing.Point(4, 363)
-        Me.descriptionTextBox.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.descriptionTextBox.Margin = New System.Windows.Forms.Padding(4)
         Me.descriptionTextBox.Multiline = True
         Me.descriptionTextBox.Name = "descriptionTextBox"
         Me.descriptionTextBox.ReadOnly = True
@@ -88,7 +88,7 @@ Partial Class UserControl1
         Me.Controls.Add(Me.descriptionTextBox)
         Me.Controls.Add(Me.priceLabel)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
+        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "UserControl1"
         Me.Size = New System.Drawing.Size(380, 449)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
