@@ -36,6 +36,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MotherboardTotalLabel = New System.Windows.Forms.Label()
         Me.MemoryTotalLabel = New System.Windows.Forms.Label()
+        Me.caseTotalLabel = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -173,11 +174,21 @@ Partial Class Form1
         Me.MemoryTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.MemoryTotalLabel.TabIndex = 57
         '
+        'caseTotalLabel
+        '
+        Me.caseTotalLabel.AutoSize = True
+        Me.caseTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.caseTotalLabel.Location = New System.Drawing.Point(568, 215)
+        Me.caseTotalLabel.Name = "caseTotalLabel"
+        Me.caseTotalLabel.Size = New System.Drawing.Size(0, 25)
+        Me.caseTotalLabel.TabIndex = 58
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 408)
+        Me.ClientSize = New System.Drawing.Size(787, 408)
+        Me.Controls.Add(Me.caseTotalLabel)
         Me.Controls.Add(Me.MemoryTotalLabel)
         Me.Controls.Add(Me.MotherboardTotalLabel)
         Me.Controls.Add(Me.Label2)
@@ -214,4 +225,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents MotherboardTotalLabel As Label
     Friend WithEvents MemoryTotalLabel As Label
+    Friend WithEvents caseTotalLabel As Label
 End Class
