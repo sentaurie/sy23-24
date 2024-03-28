@@ -147,9 +147,9 @@ Partial Class Form3
         '
         'UserControl12
         '
-        Me.UserControl12.Location = New System.Drawing.Point(441, 46)
+        Me.UserControl12.Location = New System.Drawing.Point(460, 36)
         Me.UserControl12.Name = "UserControl12"
-        Me.UserControl12.Size = New System.Drawing.Size(282, 363)
+        Me.UserControl12.Size = New System.Drawing.Size(301, 371)
         Me.UserControl12.TabIndex = 28
         '
         'Form3
@@ -181,4 +181,8 @@ Partial Class Form3
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
     Friend WithEvents UserControl12 As UserControl1
+
+    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class

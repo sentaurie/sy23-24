@@ -24,71 +24,71 @@ Partial Class UserControl1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserControl1))
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.priceLabel = New System.Windows.Forms.Label()
-        Me.descriptionTextBox = New System.Windows.Forms.TextBox()
-        Me.ImageList1 = New System.Windows.Forms.ImageList(Me.components)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.priceLabela = New System.Windows.Forms.Label()
+        Me.descriptionTtextbox = New System.Windows.Forms.TextBox()
+        Me.ImageList2 = New System.Windows.Forms.ImageList(Me.components)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'PictureBox1
+        'PictureBox2
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(285, 260)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.PictureBox2.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(301, 246)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
         '
-        'priceLabel
+        'priceLabela
         '
-        Me.priceLabel.AutoSize = True
-        Me.priceLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.priceLabel.Location = New System.Drawing.Point(96, 263)
-        Me.priceLabel.Name = "priceLabel"
-        Me.priceLabel.Size = New System.Drawing.Size(86, 29)
-        Me.priceLabel.TabIndex = 1
-        Me.priceLabel.Text = "Label1"
+        Me.priceLabela.AutoSize = True
+        Me.priceLabela.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.priceLabela.Location = New System.Drawing.Point(100, 249)
+        Me.priceLabela.Name = "priceLabela"
+        Me.priceLabela.Size = New System.Drawing.Size(102, 33)
+        Me.priceLabela.TabIndex = 1
+        Me.priceLabela.Text = "Label1"
         '
-        'descriptionTextBox
+        'descriptionTtextbox
         '
-        Me.descriptionTextBox.Location = New System.Drawing.Point(3, 295)
-        Me.descriptionTextBox.Multiline = True
-        Me.descriptionTextBox.Name = "descriptionTextBox"
-        Me.descriptionTextBox.ReadOnly = True
-        Me.descriptionTextBox.Size = New System.Drawing.Size(282, 67)
-        Me.descriptionTextBox.TabIndex = 2
+        Me.descriptionTtextbox.Location = New System.Drawing.Point(0, 285)
+        Me.descriptionTtextbox.Multiline = True
+        Me.descriptionTtextbox.Name = "descriptionTtextbox"
+        Me.descriptionTtextbox.Size = New System.Drawing.Size(301, 86)
+        Me.descriptionTtextbox.TabIndex = 2
         '
-        'ImageList1
+        'ImageList2
         '
-        Me.ImageList1.ImageStream = CType(resources.GetObject("ImageList1.ImageStream"), System.Windows.Forms.ImageListStreamer)
-        Me.ImageList1.TransparentColor = System.Drawing.Color.Transparent
-        Me.ImageList1.Images.SetKeyName(0, "gtx1050.jpg")
-        Me.ImageList1.Images.SetKeyName(1, "gtx1080.jpg")
-        Me.ImageList1.Images.SetKeyName(2, "3090.jpg")
-        Me.ImageList1.Images.SetKeyName(3, "4090.jpg")
-        Me.ImageList1.Images.SetKeyName(4, "RadeonRX7600XT.jpg")
-        Me.ImageList1.Images.SetKeyName(5, "i5.jpg")
-        Me.ImageList1.Images.SetKeyName(6, "i7.jpg")
-        Me.ImageList1.Images.SetKeyName(7, "i9.jpg")
-        Me.ImageList1.Images.SetKeyName(8, "ryzen5.jpg")
-        Me.ImageList1.Images.SetKeyName(9, "ryzen7.jpg")
-        Me.ImageList1.Images.SetKeyName(10, "G.SKILLRipjawsSeries16GB.jpg")
-        Me.ImageList1.Images.SetKeyName(11, "TeamT-FORCEVULCANZ16GB.jpg")
-        Me.ImageList1.Images.SetKeyName(12, "TeamT-ForceDeltaRGB32GB.jpg")
-        Me.ImageList1.Images.SetKeyName(13, "G.SKILLTridentZ5RGBSeries32GB.jpg")
-        Me.ImageList1.Images.SetKeyName(14, "aorusb550m.jpg")
+        Me.ImageList2.ImageStream = CType(resources.GetObject("ImageList2.ImageStream"), System.Windows.Forms.ImageListStreamer)
+        Me.ImageList2.TransparentColor = System.Drawing.Color.Transparent
+        Me.ImageList2.Images.SetKeyName(0, "01 gtx1050.jpg")
+        Me.ImageList2.Images.SetKeyName(1, "02 gtx1080.jpg")
+        Me.ImageList2.Images.SetKeyName(2, "03 3090.jpg")
+        Me.ImageList2.Images.SetKeyName(3, "04 4090.jpg")
+        Me.ImageList2.Images.SetKeyName(4, "05 RadeonRX7600XT.jpg")
+        Me.ImageList2.Images.SetKeyName(5, "06 i5.jpg")
+        Me.ImageList2.Images.SetKeyName(6, "07 i7.jpg")
+        Me.ImageList2.Images.SetKeyName(7, "08 i9.jpg")
+        Me.ImageList2.Images.SetKeyName(8, "09 ryzen5.jpg")
+        Me.ImageList2.Images.SetKeyName(9, "10 ryzen7.jpg")
+        Me.ImageList2.Images.SetKeyName(10, "11 gskilltrident.jpg")
+        Me.ImageList2.Images.SetKeyName(11, "12 tforcedelta.jpg")
+        Me.ImageList2.Images.SetKeyName(12, "13 tforcevulcan.jpg")
+        Me.ImageList2.Images.SetKeyName(13, "14 gskillripjaw.jpg")
+        Me.ImageList2.Images.SetKeyName(14, "15 aorusb550m.jpg")
+        Me.ImageList2.Images.SetKeyName(15, "16 msimag.jpg")
+        Me.ImageList2.Images.SetKeyName(16, "17 rogstrix.jpg")
+        Me.ImageList2.Images.SetKeyName(17, "18 msiz790.png")
+        Me.ImageList2.Images.SetKeyName(18, "19 asrock.jpg")
         '
         'UserControl1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.descriptionTextBox)
-        Me.Controls.Add(Me.priceLabel)
-        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.descriptionTtextbox)
+        Me.Controls.Add(Me.priceLabela)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Name = "UserControl1"
-        Me.Size = New System.Drawing.Size(285, 365)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Size = New System.Drawing.Size(301, 371)
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -98,4 +98,10 @@ Partial Class UserControl1
     Friend WithEvents priceLabel As Label
     Friend WithEvents descriptionTextBox As TextBox
     Friend WithEvents ImageList1 As ImageList
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents pri As Label
+    Friend WithEvents priceLabela As Label
+    Friend WithEvents descriptionTtextbox As TextBox
+    Friend WithEvents ImageList2 As ImageList
 End Class

@@ -36,6 +36,7 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MotherboardTotalLabel = New System.Windows.Forms.Label()
         Me.MemoryTotalLabel = New System.Windows.Forms.Label()
+        Me.caseTotalLabel = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -51,7 +52,9 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label1.Location = New System.Drawing.Point(56, 42)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(81, 33)
@@ -61,7 +64,9 @@ Partial Class Form1
         'Label12
         '
         Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label12.Location = New System.Drawing.Point(266, 43)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(79, 33)
@@ -71,7 +76,9 @@ Partial Class Form1
         'Label18
         '
         Me.Label18.AutoSize = True
+        Me.Label18.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label18.Location = New System.Drawing.Point(31, 135)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(127, 36)
@@ -81,7 +88,9 @@ Partial Class Form1
         'Label24
         '
         Me.Label24.AutoSize = True
+        Me.Label24.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label24.Location = New System.Drawing.Point(55, 231)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(87, 33)
@@ -91,7 +100,9 @@ Partial Class Form1
         'Label30
         '
         Me.Label30.AutoSize = True
+        Me.Label30.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label30.Location = New System.Drawing.Point(209, 136)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(190, 33)
@@ -101,7 +112,9 @@ Partial Class Form1
         'Label36
         '
         Me.Label36.AutoSize = True
+        Me.Label36.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label36.Location = New System.Drawing.Point(40, 324)
         Me.Label36.Name = "Label36"
         Me.Label36.Size = New System.Drawing.Size(121, 33)
@@ -111,7 +124,9 @@ Partial Class Form1
         'Label42
         '
         Me.Label42.AutoSize = True
+        Me.Label42.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label42.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label42.Location = New System.Drawing.Point(200, 231)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(206, 33)
@@ -121,7 +136,9 @@ Partial Class Form1
         'Label48
         '
         Me.Label48.AutoSize = True
+        Me.Label48.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label48.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Label48.Location = New System.Drawing.Point(243, 323)
         Me.Label48.Name = "Label48"
         Me.Label48.Size = New System.Drawing.Size(123, 33)
@@ -173,11 +190,21 @@ Partial Class Form1
         Me.MemoryTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.MemoryTotalLabel.TabIndex = 57
         '
+        'caseTotalLabel
+        '
+        Me.caseTotalLabel.AutoSize = True
+        Me.caseTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.caseTotalLabel.Location = New System.Drawing.Point(568, 215)
+        Me.caseTotalLabel.Name = "caseTotalLabel"
+        Me.caseTotalLabel.Size = New System.Drawing.Size(0, 25)
+        Me.caseTotalLabel.TabIndex = 58
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 408)
+        Me.ClientSize = New System.Drawing.Size(787, 408)
+        Me.Controls.Add(Me.caseTotalLabel)
         Me.Controls.Add(Me.MemoryTotalLabel)
         Me.Controls.Add(Me.MotherboardTotalLabel)
         Me.Controls.Add(Me.Label2)
@@ -214,4 +241,5 @@ Partial Class Form1
     Friend WithEvents Label2 As Label
     Friend WithEvents MotherboardTotalLabel As Label
     Friend WithEvents MemoryTotalLabel As Label
+    Friend WithEvents caseTotalLabel As Label
 End Class
