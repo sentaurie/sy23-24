@@ -13,6 +13,7 @@ Public Class Form1
     Dim mem As Integer
     Dim mb As Integer
     Dim pcase As Integer
+    Dim ps As Integer
 
     Dim totalvalue As Integer
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
@@ -21,7 +22,7 @@ Public Class Form1
         Me.Show()
         gpu = f2.UserControl11.priceLabela.Text
         GPUTotalLabel.Text = gpu.ToString("C2")
-        totalvalue = gpu + cpu + mem + mb + pcase
+        totalvalue = gpu + cpu + mem + mb + pcase + ps
         Label2.Text = totalvalue.ToString("C2")
     End Sub
 
@@ -31,7 +32,7 @@ Public Class Form1
         Me.Show()
         cpu = f3.UserControl12.priceLabela.Text
         CPUTotalLabel.Text = cpu.ToString("C2")
-        totalvalue = gpu + cpu + mem + mb + pcase
+        totalvalue = gpu + cpu + mem + mb + pcase + ps
         Label2.Text = totalvalue.ToString("C2")
     End Sub
 
@@ -41,7 +42,7 @@ Public Class Form1
         Me.Show()
         mem = f4.UserControl12.priceLabela.Text
         MemoryTotalLabel.Text = mem.ToString("C2")
-        totalvalue = gpu + cpu + mem + mb + pcase
+        totalvalue = gpu + cpu + mem + mb + pcase + ps
         Label2.Text = totalvalue.ToString("C2")
     End Sub
 
@@ -51,7 +52,7 @@ Public Class Form1
         Me.Show()
         mb = f5.UserControl11.priceLabela.Text
         MotherboardTotalLabel.Text = mb.ToString("C2")
-        totalvalue = gpu + cpu + mem + mb + pcase
+        totalvalue = gpu + cpu + mem + mb + pcase + ps
         Label2.Text = totalvalue.ToString("C2")
     End Sub
 
@@ -60,7 +61,11 @@ Public Class Form1
         f6.ShowDialog()
         Me.Show()
         pcase = f6.UserControl11.priceLabela.Text
-        caseTotalLabel.Text = mb.ToString("C2")
-        totalvalue = gpu + cpu + mem + mb + pcase
+        caseTotalLabel.Text = pcase.ToString("C2")
+        totalvalue = gpu + cpu + mem + mb + pcase + ps
+    End Sub
+
+    Private Sub Label42_Click(sender As Object, e As EventArgs) Handles Label42.Click
+
     End Sub
 End Class
