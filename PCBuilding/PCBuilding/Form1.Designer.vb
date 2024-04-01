@@ -28,15 +28,20 @@ Partial Class Form1
         Me.Label18 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label36 = New System.Windows.Forms.Label()
         Me.Label42 = New System.Windows.Forms.Label()
-        Me.Label48 = New System.Windows.Forms.Label()
         Me.GPUTotalLabel = New System.Windows.Forms.Label()
         Me.CPUTotalLabel = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.MotherboardTotalLabel = New System.Windows.Forms.Label()
         Me.MemoryTotalLabel = New System.Windows.Forms.Label()
         Me.caseTotalLabel = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -67,11 +72,12 @@ Partial Class Form1
         Me.Label12.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label12.Location = New System.Drawing.Point(266, 43)
+        Me.Label12.Location = New System.Drawing.Point(265, 43)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(79, 33)
         Me.Label12.TabIndex = 12
         Me.Label12.Text = "CPU"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label18
         '
@@ -79,7 +85,7 @@ Partial Class Form1
         Me.Label18.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label18.Location = New System.Drawing.Point(31, 135)
+        Me.Label18.Location = New System.Drawing.Point(31, 178)
         Me.Label18.Name = "Label18"
         Me.Label18.Size = New System.Drawing.Size(127, 36)
         Me.Label18.TabIndex = 18
@@ -91,7 +97,7 @@ Partial Class Form1
         Me.Label24.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label24.Location = New System.Drawing.Point(55, 231)
+        Me.Label24.Location = New System.Drawing.Point(54, 317)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(87, 33)
         Me.Label24.TabIndex = 24
@@ -103,23 +109,11 @@ Partial Class Form1
         Me.Label30.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label30.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label30.Location = New System.Drawing.Point(209, 136)
+        Me.Label30.Location = New System.Drawing.Point(210, 180)
         Me.Label30.Name = "Label30"
         Me.Label30.Size = New System.Drawing.Size(190, 33)
         Me.Label30.TabIndex = 30
         Me.Label30.Text = "Motherboard"
-        '
-        'Label36
-        '
-        Me.Label36.AutoSize = True
-        Me.Label36.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label36.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label36.Location = New System.Drawing.Point(40, 324)
-        Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(121, 33)
-        Me.Label36.TabIndex = 36
-        Me.Label36.Text = "Cooling"
         '
         'Label42
         '
@@ -127,29 +121,17 @@ Partial Class Form1
         Me.Label42.BackColor = System.Drawing.SystemColors.ControlDarkDark
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label42.Location = New System.Drawing.Point(200, 231)
+        Me.Label42.Location = New System.Drawing.Point(200, 317)
         Me.Label42.Name = "Label42"
         Me.Label42.Size = New System.Drawing.Size(206, 33)
         Me.Label42.TabIndex = 42
         Me.Label42.Text = "Power Supply"
         '
-        'Label48
-        '
-        Me.Label48.AutoSize = True
-        Me.Label48.BackColor = System.Drawing.SystemColors.ControlDarkDark
-        Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label48.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label48.Location = New System.Drawing.Point(243, 323)
-        Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(123, 33)
-        Me.Label48.TabIndex = 48
-        Me.Label48.Text = "Storage"
-        '
         'GPUTotalLabel
         '
         Me.GPUTotalLabel.AutoSize = True
         Me.GPUTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GPUTotalLabel.Location = New System.Drawing.Point(568, 51)
+        Me.GPUTotalLabel.Location = New System.Drawing.Point(568, 50)
         Me.GPUTotalLabel.Name = "GPUTotalLabel"
         Me.GPUTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.GPUTotalLabel.TabIndex = 53
@@ -158,7 +140,7 @@ Partial Class Form1
         '
         Me.CPUTotalLabel.AutoSize = True
         Me.CPUTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CPUTotalLabel.Location = New System.Drawing.Point(568, 98)
+        Me.CPUTotalLabel.Location = New System.Drawing.Point(568, 95)
         Me.CPUTotalLabel.Name = "CPUTotalLabel"
         Me.CPUTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.CPUTotalLabel.TabIndex = 54
@@ -176,7 +158,7 @@ Partial Class Form1
         '
         Me.MotherboardTotalLabel.AutoSize = True
         Me.MotherboardTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MotherboardTotalLabel.Location = New System.Drawing.Point(568, 190)
+        Me.MotherboardTotalLabel.Location = New System.Drawing.Point(568, 186)
         Me.MotherboardTotalLabel.Name = "MotherboardTotalLabel"
         Me.MotherboardTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.MotherboardTotalLabel.TabIndex = 56
@@ -185,7 +167,7 @@ Partial Class Form1
         '
         Me.MemoryTotalLabel.AutoSize = True
         Me.MemoryTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.MemoryTotalLabel.Location = New System.Drawing.Point(568, 146)
+        Me.MemoryTotalLabel.Location = New System.Drawing.Point(568, 141)
         Me.MemoryTotalLabel.Name = "MemoryTotalLabel"
         Me.MemoryTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.MemoryTotalLabel.TabIndex = 57
@@ -194,25 +176,100 @@ Partial Class Form1
         '
         Me.caseTotalLabel.AutoSize = True
         Me.caseTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.caseTotalLabel.Location = New System.Drawing.Point(568, 215)
+        Me.caseTotalLabel.Location = New System.Drawing.Point(568, 231)
         Me.caseTotalLabel.Name = "caseTotalLabel"
         Me.caseTotalLabel.Size = New System.Drawing.Size(0, 25)
         Me.caseTotalLabel.TabIndex = 58
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(523, 53)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(48, 20)
+        Me.Label3.TabIndex = 59
+        Me.Label3.Text = "GPU:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(523, 98)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(46, 20)
+        Me.Label4.TabIndex = 60
+        Me.Label4.Text = "CPU:"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(500, 142)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(69, 20)
+        Me.Label5.TabIndex = 61
+        Me.Label5.Text = "Memory:"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(466, 188)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(104, 20)
+        Me.Label6.TabIndex = 62
+        Me.Label6.Text = "Motherboard:"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(518, 234)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(50, 20)
+        Me.Label7.TabIndex = 63
+        Me.Label7.Text = "Case:"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(482, 357)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(88, 33)
+        Me.Label8.TabIndex = 64
+        Me.Label8.Text = "Total:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(459, 283)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(109, 20)
+        Me.Label9.TabIndex = 65
+        Me.Label9.Text = "Power Supply:"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(787, 408)
+        Me.ClientSize = New System.Drawing.Size(701, 408)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.caseTotalLabel)
         Me.Controls.Add(Me.MemoryTotalLabel)
         Me.Controls.Add(Me.MotherboardTotalLabel)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.CPUTotalLabel)
         Me.Controls.Add(Me.GPUTotalLabel)
-        Me.Controls.Add(Me.Label48)
         Me.Controls.Add(Me.Label42)
-        Me.Controls.Add(Me.Label36)
         Me.Controls.Add(Me.Label30)
         Me.Controls.Add(Me.Label24)
         Me.Controls.Add(Me.Label18)
@@ -233,13 +290,18 @@ Partial Class Form1
     Friend WithEvents Label18 As Label
     Friend WithEvents Label24 As Label
     Friend WithEvents Label30 As Label
-    Friend WithEvents Label36 As Label
     Friend WithEvents Label42 As Label
-    Friend WithEvents Label48 As Label
     Friend WithEvents GPUTotalLabel As Label
     Friend WithEvents CPUTotalLabel As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents MotherboardTotalLabel As Label
     Friend WithEvents MemoryTotalLabel As Label
     Friend WithEvents caseTotalLabel As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
 End Class
