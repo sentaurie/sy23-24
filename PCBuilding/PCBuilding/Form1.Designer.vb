@@ -42,6 +42,8 @@ Partial Class Form1
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.psTotalLabel = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -149,7 +151,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(568, 362)
+        Me.Label2.Location = New System.Drawing.Point(568, 345)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(0, 25)
         Me.Label2.TabIndex = 55
@@ -235,7 +237,7 @@ Partial Class Form1
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(482, 357)
+        Me.Label8.Location = New System.Drawing.Point(482, 340)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(88, 33)
         Me.Label8.TabIndex = 64
@@ -251,11 +253,31 @@ Partial Class Form1
         Me.Label9.TabIndex = 65
         Me.Label9.Text = "Power Supply:"
         '
+        'psTotalLabel
+        '
+        Me.psTotalLabel.AutoSize = True
+        Me.psTotalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.psTotalLabel.Location = New System.Drawing.Point(568, 283)
+        Me.psTotalLabel.Name = "psTotalLabel"
+        Me.psTotalLabel.Size = New System.Drawing.Size(0, 25)
+        Me.psTotalLabel.TabIndex = 66
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(472, 382)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(106, 13)
+        Me.Label10.TabIndex = 67
+        Me.Label10.Text = "Tax = Total plus 10%"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(701, 408)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.psTotalLabel)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label7)
@@ -304,4 +326,6 @@ Partial Class Form1
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label9 As Label
+    Friend WithEvents psTotalLabel As Label
+    Friend WithEvents Label10 As Label
 End Class
