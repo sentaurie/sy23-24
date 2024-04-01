@@ -6,6 +6,7 @@ Public Class Form1
     Dim f4 As New Form4
     Dim f5 As New Form5
     Dim f6 As New Form6
+    Dim f7 As New Form7
 
     Dim gpu As Integer
     Dim cpu As Integer
