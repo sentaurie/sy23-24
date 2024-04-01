@@ -23,7 +23,6 @@ Partial Class Form6
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.UserControl11 = New PCBuilding.UserControl1()
-        Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
@@ -34,18 +33,8 @@ Partial Class Form6
         '
         Me.UserControl11.Location = New System.Drawing.Point(436, 55)
         Me.UserControl11.Name = "UserControl11"
-        Me.UserControl11.Size = New System.Drawing.Size(301, 371)
+        Me.UserControl11.Size = New System.Drawing.Size(301, 285)
         Me.UserControl11.TabIndex = 0
-        '
-        'Button6
-        '
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(66, 298)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(277, 49)
-        Me.Button6.TabIndex = 32
-        Me.Button6.Text = "AMD Ryzen 7 5700X3D"
-        Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
         '
@@ -54,7 +43,7 @@ Partial Class Form6
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(277, 49)
         Me.Button7.TabIndex = 31
-        Me.Button7.Text = "AMD Ryzen 5 8600G"
+        Me.Button7.Text = "Steel"
         Me.Button7.UseVisualStyleBackColor = True
         '
         'Button8
@@ -64,7 +53,7 @@ Partial Class Form6
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(277, 49)
         Me.Button8.TabIndex = 30
-        Me.Button8.Text = "Intel Core i9-14900K"
+        Me.Button8.Text = "Tempered Glass"
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
@@ -74,7 +63,7 @@ Partial Class Form6
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(277, 49)
         Me.Button9.TabIndex = 29
-        Me.Button9.Text = "Intel Core i7-14700K"
+        Me.Button9.Text = "Mid-Tower"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button10
@@ -84,7 +73,7 @@ Partial Class Form6
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(277, 49)
         Me.Button10.TabIndex = 28
-        Me.Button10.Text = "Intel Core i5-14600K"
+        Me.Button10.Text = "Small"
         Me.Button10.UseVisualStyleBackColor = True
         '
         'Form6
@@ -92,7 +81,6 @@ Partial Class Form6
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button9)
@@ -105,7 +93,6 @@ Partial Class Form6
     End Sub
 
     Friend WithEvents UserControl11 As UserControl1
-    Friend WithEvents Button6 As Button
     Friend WithEvents Button7 As Button
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button

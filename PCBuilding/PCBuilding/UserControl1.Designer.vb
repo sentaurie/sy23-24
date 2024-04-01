@@ -80,6 +80,14 @@ Partial Class UserControl1
         Me.ImageList2.Images.SetKeyName(16, "17 rogstrix.jpg")
         Me.ImageList2.Images.SetKeyName(17, "18 msiz790.png")
         Me.ImageList2.Images.SetKeyName(18, "19 asrock.jpg")
+        Me.ImageList2.Images.SetKeyName(19, "CORSAIRRM750e.jpg")
+        Me.ImageList2.Images.SetKeyName(20, "CORSAIRRM1000e.jpg")
+        Me.ImageList2.Images.SetKeyName(21, "MSI-MAGA750GL.jpg")
+        Me.ImageList2.Images.SetKeyName(22, "ThermaltakeSmartSeries.jpg")
+        Me.ImageList2.Images.SetKeyName(23, "midtower.jpg")
+        Me.ImageList2.Images.SetKeyName(24, "small.jpg")
+        Me.ImageList2.Images.SetKeyName(25, "steel.jpg")
+        Me.ImageList2.Images.SetKeyName(26, "temperedglass.jpg")
         '
         'UserControl1
         '
