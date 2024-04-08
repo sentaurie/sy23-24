@@ -2,6 +2,26 @@
     text-align: center;
 }
 
+h3 {
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+}
+
 body {
     text-align: center;
+    
+}
+
+.upperbar {
+    background-color: lightgrey;
+    width: 100%;
+    margin-top: -27px;
+    word-spacing: 25px;
+}
+
+.aboutsection{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 40px;
 }
