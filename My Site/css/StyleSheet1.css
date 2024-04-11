@@ -5,20 +5,30 @@
 h3 {
     color: black;
     font-size: 25px;
-    display: inline-block;
+    display: inline;
 }
 
 body {
     text-align: center;
-    
+  margin: 0;
+}
+
+
+.vl {
+    border-left: 3px solid #9e9e9d;
+    height: 30px;
+    position: absolute;
+    left: 50%;
+    margin-top: -28px;
 }
 
 .upperbar {
-    background-color: lightgrey;
-    width: 100%;
-    margin-top: -27px;
-    word-spacing: 25px;
+    position: sticky;
+    height: 54px;
+    word-spacing: 40px;
+    text-align: center;
 }
+
 
 .aboutsection{
     margin-top: 20px;
